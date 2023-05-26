@@ -11,5 +11,5 @@
 
 # 2. How to execute the test:
 
-- Run test : npx playwright test --reporter=line,monocart-reporter
-- View the report : npx monocart show-report test-results/report.html
+- Run test : npx playwright test --reporter=line,monocart-reporter.
+- View the report : npx monocart show-report test-results/report.html.
