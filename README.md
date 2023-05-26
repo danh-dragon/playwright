@@ -14,4 +14,4 @@
 - Run test : npx playwright test --reporter=line,monocart-reporter.
 - View the report : npx monocart show-report test-results/report.html.
 
-Note: an automation test is being executed on two browsers, namely Chrome and Firefox (with the latest version)
+Note: an automation test is being executed on two browsers, namely Chrome and Firefox (with the latest version).
