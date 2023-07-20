@@ -13,7 +13,7 @@ test('Create an account successfully @conduit', async ({ page }) => {
   await login.verifyHomePage();
 });
 
-test('Create an account failed dung @conduit', async ({ page }) => {
+test('Create an account failed @conduit', async ({ page }) => {
   let email_wrong = 'test_wrong_email@mailinator.com';
   const login = new SignInPage(page);
   await page.goto('https://react-redux.realworld.io/');
